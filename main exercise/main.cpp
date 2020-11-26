@@ -34,5 +34,5 @@ Sales_data a;
 			print(std::cout, total) << std::endl; // print the last transaction
 	} else { // there was no input
 		std::cerr << "No data?!" << std::endl; // notify the user
-
+	}
 }
