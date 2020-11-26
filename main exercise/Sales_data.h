@@ -1,7 +1,12 @@
 #pragma once
 #include <iostream>
-struct Sales_data {
-	// new members: operations on Sales_data objects
+struct  Sales_data {
+	//constructors
+	Sales_data() = default;
+	Sales_data(const std::string& s): bookNo(s) { }
+	Sales_data(const std::string& s, unsigned n, double p): bookNo(s), units_sold(n), revenue(p*n) { } 
+	Sales_data(std::istream&);
+	// members: operations on Sales_data objects
 	std::string isbn() const { return bookNo; }
 	Sales_data& combine(const Sales_data&);
 	double avg_price() const;

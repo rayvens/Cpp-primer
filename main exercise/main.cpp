@@ -3,6 +3,13 @@
 
 
 int main(){
+	Sales_data a("hola");
+	print(std::cout,a);
+
+
+
+
+	/*
 	Sales_data total; // main variable to hold data
 	if (read(std::cin, total)) { //read the first book/transaction
 		Sales_data trans; // new variable to hold the next transaction (or new)
@@ -19,5 +26,5 @@ int main(){
 	} else { // there was no input
 		std::cerr << "No data?!" << std::endl; // notify the user
 	}
-
+*/
 }
