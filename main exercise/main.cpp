@@ -4,6 +4,16 @@
 
 int main(){
 
+/*	Sales_data a("test", 10, 5);
+	Sales_data b("test");
+	Sales_data c;
+	Sales_data d(std::cin);
+	
+	print(std::cout,a); std::cout<<std::endl;
+	print(std::cout,b); std::cout<<std::endl;
+	print(std::cout,c); std::cout<<std::endl;
+	print(std::cout,d);
+*/
 
 	/*
 	Sales_data total; // main variable to hold data
