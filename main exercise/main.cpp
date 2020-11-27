@@ -3,10 +3,6 @@
 
 
 int main(){
-	Sales_data a("hola");
-	print(std::cout,a);
-
-
 
 
 	/*
