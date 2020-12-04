@@ -13,9 +13,9 @@ class Screen{
 
         //display overloeaded on whether the object is const or not
         Screen& display(std::ostream& os) 
-         { do_display(os); std::cout<<"\nnonconst func\n"; return *this; }
+         { do_display(os); return *this; }
         const Screen& display(std::ostream& os) const 
-         { do_display(os); std::cout<<"\nconst func\n";return *this; }
+         { do_display(os); return *this; }
         Screen& set(char);
         Screen& set(pos, pos, char);
         char get() const {return contents[cursor]; } //implicit inline
