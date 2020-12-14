@@ -1,4 +1,4 @@
-#include "Sales_data.h"
+#include "../header/Sales_data.h"
 /*
 constructor
 Sales_data::Sales_data(std::istream& is){
